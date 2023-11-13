@@ -1,11 +1,11 @@
-## StackSpot Plugin
+## StackSpot - Spring Boot Kotlin Maven
 
-## Jinja
+You can use this template to make a Spring 3.1.5, Maven, Kotlin 1.8.22 (Java 17) Application.
 
-You can use jinja to make a template-data folder more dynamic.
-
-complete documentation of jinja: https://jinja.palletsprojects.com/en/3.0.x/templates/
-
-### Example Inputs:
-- Resource: {{ resource }}
-- Method: {{ method }}
+### Inputs:
+| Name | Type | Required | Example |
+|------|------|----------|---------|
+| project_name | text | true     | Spring Base Project |
+| description | text | false    | Demo project for Stackspot |
+| artifact_id | text | true     | spring-base-project|
+| group_name | text | true     | br.com.leodelmiro |
