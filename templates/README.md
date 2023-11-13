@@ -1,6 +1,6 @@
 ## StackSpot - Spring Boot Kotlin Maven
 
-You can use this template to make a Spring 3.1.5, Maven, Kotlin 1.8.22 (Java 17) Application.
+You can use this template to make a Spring 3.1.5, Spring Web, Maven, Kotlin 1.8.22 (Java 17) Application.
 
 ### Inputs:
 | Name | Type | Required | Example |

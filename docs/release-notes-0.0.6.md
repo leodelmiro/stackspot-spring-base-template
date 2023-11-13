@@ -1,6 +1,21 @@
-# Release Notes 0.0.4
+# Release Notes 0.0.6
 
-# plugin-doc-template v0.0.4 changes
+# plugin-doc-template v0.0.6 changes
+
+## Features
+
+- Added Spring Web lib
+
+- Added a Template for the following Plugin documents:
+
+  - `release-notes@0.0.6.md`
+  - `about.md` apply version
+
+## Fixes
+
+- Fixed 'blank Application name' declaration.
+
+# plugin-doc-template v0.0.5 changes
 
 ## Features
 
@@ -10,7 +25,6 @@
 
 ## Fixes
 
-- Fixed 'blank Application name' declaration.
 - Fixed packages path
 
 # plugin-doc-template v0.0.4 changes
