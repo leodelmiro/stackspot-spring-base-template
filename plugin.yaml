@@ -9,33 +9,45 @@ metadata:
 spec:
   type: app
   compatibility:
-    - python
+    - kotlin
+    - maven
+    - spring
   about: docs/about.md
   implementation: docs/implementation.md
   release-notes: docs/release-notes-0.0.1.md
   requirements: docs/requirements.md
-  single-use: False
+  single-use: true
   repository: https://github.com/leodelmiro/stackspot-spring-base-template
   technologies: # Ref: https://docs.stackspot.com/create-use/create-content/yaml-files/plugin-yaml/#technologies-1
-    - Api
+    - Kotlin
+    - Maven
+    - Spring Boot
   stk-projects-only: false
   inputs:
-    - label: Type name of your resource
-      name: resource
+    - label: Type application name
+      name: project_name
       type: text
       required: true
-      default: Client
-      pattern: '([A-Z][a-z]+)+'
-      help: 'Inform your resource name (e.g.: Client)'
-    - label: Choose http method of new endpoint
-      name: method
+      default: Spring Base Project
+      help: 'Inform your application name (e.g.: Spring Base Project)'
+    - label: Type description
+      name: description
       type: text
-      items:
-        - GET
-        - POST
-        - PUT
-        - DELETE
-        - PATCH
-      default: GET
+      required: false
+      default: Demo project for Stackspot
+      help: 'Inform project description (e.g.: Demo project for Stackspot)'
+    - label: Type artifact Id
+      name: artifact_id
+      type: text
       required: true
-      help: 'Inform the method of the endpoint (e.g.: post or delete)'
+      default: spring-base-project
+      help: 'Inform your artifact id (e.g.: spring-base-project)'
+    - label: Type group name
+      name: group_name
+      type: text
+      required: true
+      default: br.com.leodelmiro
+      help: 'Inform your group name (e.g.: br.com.leodelmiro)'
+  global-computed-inputs:
+    main_class: "{{ projectName | pascalcase }}"
+    project_name_lower: "{{ artifact_id | replace('-','') | replace('_','') | lower }}"

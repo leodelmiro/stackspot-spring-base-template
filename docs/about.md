@@ -1,10 +1,4 @@
-## Add the Plugin name here!(example: plugin-doc-template)
-
-Write a clear and brief description of your Plugin content. Answer questions like:
+## spring-base-template
 
 - What does the Plugin do?
-- If necessary, what the Plugin does not do.
-This avoids ambiguous interpretations, and it is easier for users to understand.
-
-See an example:
-> This Plugin has instructions on how to fill in the information to use Plugins on the StackSpot platform.
+> This Plugin has the base to spring boot projects using Spring 3.1.5, Maven, Kotlin 1.8.22 (Java 17).

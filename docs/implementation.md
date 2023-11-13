@@ -1,7 +1,5 @@
 ## Implementation
 
-Describe all the steps to use the Plugin:
-
 - Fill in inputs
 - What methods to use
 - What are the resources?
