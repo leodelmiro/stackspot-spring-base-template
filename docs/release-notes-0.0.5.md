@@ -6,6 +6,19 @@
 
 - Added a Template for the following Plugin documents:
 
+  - `release-notes@0.0.5.md`
+
+## Fixes
+
+- Fixed 'blank Application name' declaration.
+- Fixed packages path
+
+# plugin-doc-template v0.0.4 changes
+
+## Features
+
+- Added a Template for the following Plugin documents:
+
   - `release-notes@0.0.4.md`
 
 ## Fixes

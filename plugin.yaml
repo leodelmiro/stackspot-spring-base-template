@@ -4,7 +4,7 @@ metadata:
   name: spring-base-template
   display-name: spring-base-template
   description: Spring base template
-  version: 0.0.4
+  version: 0.0.5
   picture: plugin.png
 spec:
   type: app
@@ -14,7 +14,7 @@ spec:
     - spring
   about: docs/about.md
   implementation: docs/implementation.md
-  release-notes: docs/release-notes-0.0.4.md
+  release-notes: docs/release-notes-0.0.5.md
   requirements: docs/requirements.md
   single-use: true
   repository: https://github.com/leodelmiro/stackspot-spring-base-template
@@ -49,5 +49,5 @@ spec:
       default: br.com.leodelmiro
       help: 'Inform your group name (e.g.: br.com.leodelmiro)'
   global-computed-inputs:
-    main_class: "{{ projectName | pascalcase }}"
+    main_class: "{{ projectName | replace('_','') | replace('-','') | list | map('capitalize') | join('') }}"
     project_name_lower: "{{ artifact_id | replace('-','') | replace('_','') | lower }}"
