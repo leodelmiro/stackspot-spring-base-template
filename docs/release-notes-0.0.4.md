@@ -1,8 +1,18 @@
-# Release Notes 0.0.2
+# Release Notes 0.0.4
 
-# plugin-doc-template v0.0.2 changes
+# plugin-doc-template v0.0.4 changes
 
-The plugin-doc-template v0.0.1 adds instructions and examples on how to write the documentation for Plugins on StackSpot.
+## Features
+
+- Added a Template for the following Plugin documents:
+
+  - `release-notes@0.0.4.md`
+
+## Fixes
+
+- Fixed 'global_computed_inputs' tests declaration.
+
+# plugin-doc-template v0.0.3 changes
 
 ## Features
 
@@ -16,8 +26,6 @@ The plugin-doc-template v0.0.1 adds instructions and examples on how to write th
 
 
 # plugin-doc-template v0.0.2 changes
-
-The plugin-doc-template v0.0.1 adds instructions and examples on how to write the documentation for Plugins on StackSpot.
 
 ## Features
 
