@@ -11,7 +11,7 @@
 	<groupId>{{ group_name }}</groupId>
 	<artifactId>{{ artifact_id }}</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>{{ global-computed-inputs.project_name_lower }}</name>
+	<name>{{ project_name }}</name>
 	<description>{{ description }}</description>
 	<properties>
 		<java.version>17</java.version>
