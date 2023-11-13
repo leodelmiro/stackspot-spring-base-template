@@ -1,7 +1,7 @@
-# Release Notes 0.0.1
+# Release Notes 0.0.2
 
 
-# plugin-doc-template v0.0.1 changes
+# plugin-doc-template v0.0.2 changes
 
 The plugin-doc-template v0.0.1 adds instructions and examples on how to write the documentation for Plugins on StackSpot.
 
