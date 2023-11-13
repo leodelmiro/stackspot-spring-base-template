@@ -4,7 +4,7 @@ metadata:
   name: spring-base-template
   display-name: spring-base-template
   description: Spring base template
-  version: 0.0.2
+  version: 0.0.3
   picture: plugin.png
 spec:
   type: app
@@ -14,7 +14,7 @@ spec:
     - spring
   about: docs/about.md
   implementation: docs/implementation.md
-  release-notes: docs/release-notes-0.0.2.md
+  release-notes: docs/release-notes-0.0.3.md
   requirements: docs/requirements.md
   single-use: true
   repository: https://github.com/leodelmiro/stackspot-spring-base-template
